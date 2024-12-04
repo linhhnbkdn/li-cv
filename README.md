@@ -34,7 +34,7 @@ _Bachelor's Degree in Mechatronics Engineering_
 ## AWARDS
 
 - **MVP: Most Valuable Personal Award 2022**
-- **MVT: Most Valuable Team Award 2022**: Recognized as a high-performing team for exceptional technical and collaborative achievements.
+- **MVT Award 2022**: Recognized as a high-performing team for exceptional technical and collaborative achievements.
 
 ---
 
