@@ -8,7 +8,7 @@ Ho Chi Minh, Vietnam
 
 ## PROFESSIONAL SUMMARY
 
-As a software engineer with over 5 years of experience in backend development, microservices architecture, and cloud-based solutions, I am seeking new challenges to further enhance my skills in cutting-edge technologies such as AWS, Docker, Kubernetes, and machine learning. With a strong ability to collaborate in teams, analytical thinking, and a passion for optimizing systems, I aim to contribute to the growth of innovative tech products.
+As a software engineer with over 5 years of experience in backend development, microservices architecture, and cloud-based solutions, I am seeking new challenges to further enhance my skills in cutting-edge technologies such as AWS, Docker, Kubernetes, machine learning, and big data processing tools like PySpark and Airflow. With a strong ability to collaborate in teams, analytical thinking, and a passion for optimizing systems, I aim to contribute to the growth of innovative tech products.
 
 ---
 
@@ -35,6 +35,7 @@ _Bachelor's Degree in Mechatronics Engineering_
 
 - **Programming Languages**: Python (5+ years), C/C++, Golang, Terraform
 - **Frameworks**: Django (5+ years), DRF (5+ years), Flask (3+ years), FastAPI (3+ years), Gin, Celery (5+ years)
+- **Big Data & Data Engineering**: PySpark, Apache Airflow
 - **Databases**: MySQL, PostgreSQL, Redis
 - **Version Control & CI/CD**: Git, Docker, Kubernetes (K8s), Docker Compose
 - **Cloud Platforms**: AWS (S3, EC2, RDS, SQS, SNS, EKS, Cognito)
@@ -130,11 +131,11 @@ An American fabless semiconductor company focused on developing processors for l
 ## ADDITIONAL INFORMATION
 
 - Extensive experience with **microservices architecture** and deploying cloud-based applications on **AWS**.
-- Skilled in **CI/CD**, **Docker**, **Kubernetes**, and **system optimization**.
+- Skilled in **CI/CD**, **Docker**, **Kubernetes**, **PySpark**, **Apache Airflow**, and **system optimization**.
 - Passionate about **machine learning** and **AI technologies**, with hands-on experience in training models and applying them to real-world projects.
 
 ---
 
 ### **CONCLUSION**
 
-This CV is designed to present your skills, experience, and projects in a structured and professional manner. Focus is placed on your technical expertise, leadership experience, and ability to deliver high-performance systems. The Agile methodologies and development processes you follow are highlighted to show your leadership in project management and team collaboration. I believe this version will help you stand out to potential employers. If you need any further adjustments or additions, feel free to let me know!
+This CV is designed to present your skills, experience, and projects in a structured and professional manner. Focus is placed on your technical expertise, leadership experience, and ability to deliver high-performance systems. The addition of **PySpark** and **Apache Airflow** highlights your expertise in big data and workflow automation. I believe this version will help you stand out to potential employers. If you need any further adjustments or additions, feel free to let me know!
