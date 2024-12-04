@@ -8,7 +8,7 @@ Ho Chi Minh, Vietnam
 
 ## PROFESSIONAL SUMMARY
 
-As a software engineer with over 5 years of experience in backend development, microservices architecture, and cloud-based solutions, I am seeking new challenges to further enhance my skills in cutting-edge technologies such as AWS, Docker, Kubernetes, machine learning, and big data processing tools like PySpark and Airflow. With a strong ability to collaborate in teams, analytical thinking, and a passion for optimizing systems, I aim to contribute to the growth of innovative tech products.
+As a software engineer with over 5 years of experience in backend development, microservices architecture, and cloud-based solutions, I am seeking new challenges to further enhance my skills in cutting-edge technologies such as AWS, Docker, Kubernetes, machine learning, big data processing tools like PySpark and Airflow, and AI technologies including Generative AI and Computer Vision. With a strong ability to collaborate in teams, analytical thinking, and a passion for optimizing systems, I aim to contribute to the growth of innovative tech products.
 
 ---
 
@@ -31,17 +31,28 @@ _Bachelor's Degree in Mechatronics Engineering_
 
 ---
 
+## AWARDS
+
+- **MVP: Most Valuable Personal Award 2022**
+- **MVT: Most Valuable Team Award 2022**: Recognized as a high-performing team for exceptional technical and collaborative achievements.
+
+---
+
 ## SKILLS
 
 - **Programming Languages**: Python (5+ years), C/C++, Golang, Terraform
 - **Frameworks**: Django (5+ years), DRF (5+ years), Flask (3+ years), FastAPI (3+ years), Gin, Celery (5+ years)
 - **Big Data & Data Engineering**: PySpark, Apache Airflow
+- **AI Technologies**:
+  - **Generative AI**: Llama, Langchain, RAG (Retrieval-Augmented Generation), Function Calling
+  - **Computer Vision/Machine Learning**: SVM (Support Vector Machine), VGG16
 - **Databases**: MySQL, PostgreSQL, Redis
 - **Version Control & CI/CD**: Git, Docker, Kubernetes (K8s), Docker Compose
 - **Cloud Platforms**: AWS (S3, EC2, RDS, SQS, SNS, EKS, Cognito)
 - **Software Architecture**: Microservices, SOLID, OOP, Design Patterns (Factory, Singleton, IoC)
-- **Other Technologies**: ELK, Kafka, JWT, KEDA, Scrum, Agile
-- **Development Process & Software Lifecycle**: Agile/Scrum methodologies, SDLC (Software Development Life Cycle), Test-Driven Development (TDD), Continuous Integration/Continuous Delivery (CI/CD)
+- **Design System**: Clean Architecture, MVT, MSV, MVVM
+- **Development Process & Software Lifecycle**: Agile/Scrum methodologies, SDLC (Software Development Life Cycle), Test-Driven Development (TDD), CI/CD
+- **Other Technologies**: ELK, Kafka, JWT, KEDA
 
 ---
 
@@ -65,13 +76,13 @@ A fintech company headquartered in Japan.
 ### **PARCEL PERFORM TECH HUB VIETNAM**
 
 _Backend Engineer_ — **Sep 2021 – Jan 2022**
-Provider of end-to-end data and delivery experience platforms for e-commerce businesses.
+Provider of data and delivery experience platforms for e-commerce businesses.
 **Responsibilities**:
 
-- Monitoring infrastructure for services.
-- Designing and developing microservices for notifications.
-- Upgrading JWT authentication for services.
-- Maintaining and fixing bugs.
+- Designed and developed microservices for notifications and authentication using JWT and OAuth2.
+- Utilized Kafka for message brokering and Celery for handling asynchronous tasks.
+- Worked with the team to ensure service optimization and ensure high availability.
+- Collaborated in an Agile environment, participating in daily stand-ups and sprint planning.
 
 ### **AMPERE COMPUTING VIETNAM**
 
@@ -80,8 +91,9 @@ An American fabless semiconductor company focused on developing processors for l
 **Responsibilities**:
 
 - Backend software development.
-- Building and training SVM models for object classification.
-- Optimizing systems and resolving technical issues related to software.
+- Building and training machine learning models (SVM) for object classification tasks.
+- Collaborating with cross-functional teams to optimize backend systems.
+- Participated in code reviews, bug fixing, and system enhancements.
 
 ---
 
@@ -131,11 +143,5 @@ An American fabless semiconductor company focused on developing processors for l
 ## ADDITIONAL INFORMATION
 
 - Extensive experience with **microservices architecture** and deploying cloud-based applications on **AWS**.
-- Skilled in **CI/CD**, **Docker**, **Kubernetes**, **PySpark**, **Apache Airflow**, and **system optimization**.
-- Passionate about **machine learning** and **AI technologies**, with hands-on experience in training models and applying them to real-world projects.
-
----
-
-### **CONCLUSION**
-
-This CV is designed to present your skills, experience, and projects in a structured and professional manner. Focus is placed on your technical expertise, leadership experience, and ability to deliver high-performance systems. The addition of **PySpark** and **Apache Airflow** highlights your expertise in big data and workflow automation. I believe this version will help you stand out to potential employers. If you need any further adjustments or additions, feel free to let me know!
+- Skilled in **CI/CD**, **Docker**, **Kubernetes**, **PySpark**, **Apache Airflow**, **Generative AI**, and **Computer Vision**.
+- Passionate about **machine learning**, **AI technologies**, and applying them in real-world projects to create scalable and innovative solutions.
