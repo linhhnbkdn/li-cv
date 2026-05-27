@@ -4,10 +4,13 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## What this repo is
 
-A personal CV for Hoàng Ngọc Linh. Not a codebase — there is no build system, tests, or runtime. The repo holds two artifacts:
+A personal CV for Hoàng Ngọc Linh. Not a traditional codebase — there's no application logic or tests, but the repo does host a Jekyll site on GitHub Pages. The repo holds three artifacts:
 
 - `README.md` — the canonical source of the CV, written in Markdown. Edit this when the CV content changes.
 - `HOANG_NGOC_LINH_CV.pdf` — an exported PDF rendering of the CV, generated externally (not from a script in this repo). Treat it as a build output: regenerate it after meaningful changes to `README.md` so the two stay in sync.
+- `docs/` — Jekyll site published to GitHub Pages at `https://linhhnbkdn.github.io/li-cv/`. Uses the `sharu725/online-cv` remote theme. Content lives in `docs/_data/data.yml`; the site is rebuilt automatically on push.
+
+When the CV changes, update **both** `README.md` and `docs/_data/data.yml` — they share the same content but use different schemas (Markdown vs YAML).
 
 ## Editing conventions
 

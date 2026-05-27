@@ -1,0 +1,259 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+sidebar:
+  position: left
+  about: False
+  education: True
+
+  # Profile information
+  name: Hoàng Ngọc Linh
+  tagline: Technical Lead / Principal Software Engineer
+  avatar: # leave blank — no avatar configured
+
+  # Sidebar links
+  email: linhhn.bkdn@gmail.com
+  phone: 0344965661
+  timezone: Asia/Ho_Chi_Minh
+  citizenship: Vietnam
+  website:
+  linkedin: li-hnl
+  github:
+  twitter:
+
+  languages:
+    title: Languages
+    info:
+    - idiom: Vietnamese
+      level: Native
+
+    - idiom: English
+      level: B1 (Intermediate)
+
+  interests:
+    title: Interests
+    info:
+    - item: Generative AI & LLM systems
+      link:
+
+    - item: Distributed systems & cloud architecture
+      link:
+
+    - item: Mentoring & engineering culture
+      link:
+
+
+career-profile:
+  title: Career Profile
+  summary: |
+    Technical Lead / Principal Software Engineer with **8+ years** building
+    backend systems, microservices, and cloud-native platforms on AWS and
+    Kubernetes. Production experience scaling fintech workloads to 10k
+    concurrent users with Django, Celery, KEDA, and event-driven
+    architectures — paired with hands-on work in AI/ML (Generative AI,
+    LangChain, RAG, Computer Vision) and big-data pipelines (PySpark,
+    Airflow).
+
+    Recipient of **MVP — Most Valuable Personal Award (Q1/2025, 2023)** and
+    **MVT — Most Valuable Team Award (2023)** at Money Forward Vietnam,
+    recognizing exceptional technical delivery and cross-functional
+    collaboration.
+
+    Seeking engineering challenges where systems thinking, mentorship, and
+    pragmatic architecture compound.
+
+
+education:
+  title: Education
+  info:
+  - degree: Bachelor's Degree in Mechatronics Engineering
+    university: Da Nang University of Science and Technology
+    time: Aug 2013 – Aug 2018
+    details: |
+      GPA: 3.16/4
+
+
+experiences:
+  title: Experiences
+  info:
+  - role: Technical Lead / Principal Software Engineer
+    time: Jan 2022 – Present
+    company: Money Forward Vietnam — Fintech, headquartered in Japan
+    details: |
+      - Owned production reliability across AWS and Kubernetes — monitoring, capacity planning, and incident response.
+      - Architected and shipped new microservices end-to-end, including service code and AWS/Kubernetes infrastructure-as-code.
+      - Established repository structure, coding standards, and design-pattern guidelines for the team.
+      - Built and operated CI/CD pipelines spanning development, staging, and production.
+      - Partnered with Product Managers and Owners to translate business requirements into technical solutions.
+      - Mentored engineers on new technologies and led code reviews to raise team-wide quality.
+      - Led Agile ceremonies — sprint planning, retrospectives, and daily stand-ups.
+
+  - role: Backend Engineer
+    time: Sep 2021 – Jan 2022
+    company: Parcel Perform Tech Hub Vietnam — E-commerce data & delivery platform
+    details: |
+      - Designed and shipped authentication and notification microservices on JWT and OAuth2.
+      - Built async task pipelines on Kafka (message broker) and Celery (workers) for high-throughput workloads.
+      - Tuned services for availability and performance in close collaboration with the platform team.
+      - Drove daily stand-ups and sprint planning in an Agile environment.
+
+  - role: Backend Engineer
+    time: Mar 2019 – Sep 2021
+    company: Ampere Computing Vietnam — American fabless semiconductor company
+    details: |
+      - Developed backend services for hardware test automation and log analytics.
+      - Built and trained SVM classifiers for object-classification workflows.
+      - Optimized backend systems in collaboration with cross-functional teams.
+      - Contributed to code reviews, bug fixing, and feature enhancements.
+
+  - role: Full-stack Engineer
+    time: Jan 2016 – Mar 2019
+    company: Quang Trung Software City — Software & emerging-tech research for global clients
+    details: |
+      - Researched IoT tech stacks for client-facing product prototypes.
+      - Designed and implemented web applications together with embedded-device firmware.
+      - Demoed products directly to customers and incorporated iteration feedback.
+
+
+certifications:
+  title: Certifications
+  list:
+  - name: Professional Scrum Master™ I (PSM I)
+    start:
+    end:
+    organization: Scrum.org
+    credentialid:
+    credentialurl:
+    credentialname:
+    details:
+
+  - name: AWS Certified Solutions Architect – Professional
+    start:
+    end:
+    organization: Amazon Web Services
+    credentialid:
+    credentialurl:
+    credentialname:
+    details:
+
+  - name: AWS Certified Solutions Architect – Associate
+    start:
+    end:
+    organization: Amazon Web Services
+    credentialid:
+    credentialurl:
+    credentialname:
+    details:
+
+  - name: AWS Certified Cloud Practitioner
+    start:
+    end:
+    organization: Amazon Web Services
+    credentialid:
+    credentialurl:
+    credentialname:
+    details:
+
+  - name: AI Practitioner
+    start:
+    end:
+    organization: VTC Academy
+    credentialid:
+    credentialurl:
+    credentialname:
+    details:
+
+  - name: Convolutional Neural Networks in TensorFlow
+    start:
+    end:
+    organization: deeplearning.ai
+    credentialid:
+    credentialurl:
+    credentialname:
+    details:
+
+  - name: AI for Everyone
+    start:
+    end:
+    organization: deeplearning.ai
+    credentialid:
+    credentialurl:
+    credentialname:
+    details:
+
+  - name: Certificate of English Language Proficiency — B1
+    start:
+    end:
+    organization:
+    credentialid:
+    credentialurl:
+    credentialname:
+    details:
+
+
+projects:
+  title: Projects
+  intro: >
+    Selected production systems built or led across fintech, logistics,
+    semiconductor tooling, and IoT.
+  assignments:
+  - title: AI Agent Platform (Money Forward)
+    link:
+    tagline: "Plug-and-play AI Agent platform with shared protocol. Stack: FastAPI, Celery, Gin, EKS, Terraform, KEDA, AWS KMS. Team of 10 — Technical Lead."
+
+  - title: Received Cloud Invoice (Money Forward)
+    link:
+    tagline: "Invoice receiving and OCR processing — 10k concurrent users, 3k transactions/day on EKS with KEDA-driven autoscaling. Django + Celery + DRF."
+
+  - title: Web Sending Invoice (Money Forward)
+    link:
+    tagline: "Invoice sending and reconciliation — 5k concurrent users, 2k transactions/day. GraphQL via Graphene-Django + Django REST Framework."
+
+  - title: PP Core System (Parcel Perform)
+    link:
+    tagline: "Core logistics platform — parcel tracking, notifications, distance/route optimization at ~1M writes/day. JWT/OAuth2, Kafka, FastAPI, Celery."
+
+  - title: Avion (Ampere Computing)
+    link:
+    tagline: "Internal hardware-test runner with log storage, search, and statistics. Monolithic MVC on Django + Flask + Docker Compose."
+
+  - title: IoT Ampere (Quang Trung Software City)
+    link:
+    tagline: "Arduino-based real-time current monitoring system streaming sensor data to a Django web dashboard for online visualization."
+
+
+skills:
+  title: Skills &amp; Proficiency
+
+  toolset:
+  - name: Python, Django, DRF
+    level: 95%
+
+  - name: Celery, Kafka, async pipelines
+    level: 90%
+
+  - name: AWS (EKS, SQS, S3, Cognito, KMS) &amp; Terraform
+    level: 90%
+
+  - name: Kubernetes, Docker, CI/CD
+    level: 90%
+
+  - name: FastAPI &amp; Flask
+    level: 85%
+
+  - name: Generative AI (LangChain, RAG, Function Calling)
+    level: 80%
+
+  - name: Golang &amp; Gin
+    level: 70%
+
+  - name: PySpark &amp; Apache Airflow
+    level: 70%
+
+  - name: ReactJS, TypeScript, Tailwind CSS
+    level: 65%
+
+
+footer: >
+  Built with Jekyll using the <a href="https://github.com/sharu725/online-cv" target="_blank" rel="nofollow">online-cv</a> theme by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>.

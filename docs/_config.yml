@@ -1,0 +1,16 @@
+title: "Hoàng Ngọc Linh — CV"
+description: "Technical Lead / Principal Software Engineer — Backend, Microservices, Cloud, AI/ML"
+
+remote_theme: sharu725/online-cv
+plugins:
+  - jekyll-remote-theme
+
+# Skin: blue, turquoise, green, berry, orange, ceramic, teal, oceanstale
+theme_skin: blue
+chrome_mobile_color: "#1976d2"
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+encoding: "utf-8"
