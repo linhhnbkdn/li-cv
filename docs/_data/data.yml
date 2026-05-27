@@ -14,7 +14,7 @@ sidebar:
 
   # Sidebar links
   email: linhhn.bkdn@gmail.com
-  phone: +84 344 965 661
+  phone: +84-344-965-661
   timezone: Asia/Ho_Chi_Minh
   citizenship: Vietnam
   website:
@@ -48,15 +48,16 @@ career-profile:
   title: Career Profile
   summary: |
     Principal Software Engineer with **8+ years** designing and scaling
-    backend systems on AWS and Kubernetes — from a mechatronics background
-    turned deep software engineering. Currently leading platform and AI
-    engineering at Money Forward Vietnam: architected an internal
-    **AI Agent platform** (LangChain, RAG, Function Calling, FastAPI) and
-    scaled invoice-processing services to **10k concurrent users / 3k
-    transactions per day** with KEDA-driven autoscaling on EKS.
+    backend systems on AWS and Kubernetes — originally trained in
+    mechatronics, now specialized in backend, cloud, and AI engineering.
+    Currently leading platform and AI engineering at Money Forward
+    Vietnam: architected an internal **AI Agent platform** (LangChain,
+    RAG, Function Calling, FastAPI) and scaled invoice-processing
+    services to **10k concurrent users / 3k transactions per day** with
+    KEDA-driven autoscaling on EKS.
 
-    Strengths: pragmatic architecture, mentorship, and shipping production
-    systems with measurable impact.
+    Strengths: pragmatic architecture, mentorship, and shipping
+    production systems with measurable impact.
 
     Recipient of **MVP — Most Valuable Performer Award (Q1/2025, 2023)** and
     **MVT — Most Valuable Team Award (2023)** at Money Forward Vietnam.
@@ -80,12 +81,13 @@ experiences:
     company: Money Forward Vietnam — Fintech, headquartered in Japan
     details: |
       - Architected and operated production microservices on EKS serving **10k+ concurrent users** in fintech workloads.
+      - Designed **PostgreSQL/MySQL** data models and **Redis** caching strategies powering invoice and AI services.
+      - Built centralized observability with the **ELK stack** — structured logging, error aggregation, and dashboards.
+      - Delivered **React + TypeScript + Tailwind** admin dashboards and internal operator tools alongside backend services.
       - Owned platform reliability — monitoring, capacity planning, and incident response across AWS and Kubernetes.
-      - Established repository structure, coding standards, and design-pattern guidelines for a 10-engineer team.
-      - Built and operated CI/CD pipelines (CircleCI) spanning development, staging, and production.
+      - Built and operated CI/CD pipelines (CircleCI) and established repository structure, coding standards, and design-pattern guidelines for a 10-engineer team.
       - Mentored engineers on backend, cloud, and AI/ML stacks; led code reviews to raise team-wide quality.
-      - Led Agile ceremonies — sprint planning, retrospectives, and daily stand-ups.
-      - Partnered with Product Managers and Owners to translate business requirements into technical solutions.
+      - Led Agile ceremonies and partnered with PMs/Owners to translate business requirements into technical solutions.
 
   - role: Backend Engineer
     time: Sep 2021 – Jan 2022
@@ -141,15 +143,6 @@ certifications:
     credentialname:
     details:
 
-  - name: AWS Certified Cloud Practitioner
-    start:
-    end:
-    organization: Amazon Web Services
-    credentialid:
-    credentialurl:
-    credentialname:
-    details:
-
   - name: AI Practitioner
     start:
     end:
@@ -160,15 +153,6 @@ certifications:
     details:
 
   - name: Convolutional Neural Networks in TensorFlow
-    start:
-    end:
-    organization: deeplearning.ai
-    credentialid:
-    credentialurl:
-    credentialname:
-    details:
-
-  - name: AI for Everyone
     start:
     end:
     organization: deeplearning.ai
@@ -190,7 +174,7 @@ projects:
 
   - title: Cloud Invoice Platform (Money Forward)
     link:
-    tagline: "Two-product cloud platform — invoice receiving (OCR, reconciliation) and invoice sending (compose, deliver, track). Scale: 10k CCU / 3k tx/day (receiving), 5k CCU / 2k tx/day (sending). Django, DRF, Graphene-Django GraphQL, Celery on EKS with KEDA autoscaling."
+    tagline: "Two-product cloud platform — invoice receiving (OCR, reconciliation) and invoice sending (compose, deliver, track). Scale: 10k CCU / 3k tx/day (receiving), 5k CCU / 2k tx/day (sending). Django, DRF, Graphene-Django GraphQL, Celery on EKS with KEDA autoscaling; PostgreSQL, MySQL, Redis, ELK."
 
   - title: PP Core System (Parcel Perform)
     link:
@@ -224,17 +208,17 @@ skills:
   - name: Kafka &amp; Event-Driven Systems
     level: 85%
 
+  - name: PostgreSQL, MySQL, Redis &amp; ELK
+    level: 85%
+
   - name: Generative AI — LangChain, RAG, Function Calling
     level: 80%
 
+  - name: ReactJS, TypeScript, Tailwind CSS
+    level: 70%
+
   - name: Go &amp; Gin
     level: 70%
-
-  - name: PySpark &amp; Apache Airflow
-    level: 70%
-
-  - name: ReactJS, TypeScript, Tailwind CSS
-    level: 65%
 
 
 footer: >
