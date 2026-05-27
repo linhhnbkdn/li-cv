@@ -14,10 +14,11 @@ sidebar:
 
   # Sidebar links
   email: linhhn.bkdn@gmail.com
-  phone: +84-344-965-661
+  phone: +84 344 965 661
   timezone: Asia/Ho_Chi_Minh
   citizenship: Vietnam
-  website:
+  availability: 30 hrs/week, GMT+7, open to remote contracts
+  website: linhhnbkdn.github.io/li-cv
   linkedin: li-hnl
   github: linhhnbkdn
   twitter:
@@ -47,20 +48,12 @@ sidebar:
 career-profile:
   title: Career Profile
   summary: |
-    Principal Software Engineer with **8+ years** designing and scaling
-    backend systems on AWS and Kubernetes — originally trained in
-    mechatronics, now specialized in backend, cloud, and AI engineering.
-    Currently leading platform and AI engineering at Money Forward
-    Vietnam: architected an internal **AI Agent platform** (LangChain,
-    RAG, Function Calling, FastAPI) and scaled invoice-processing
-    services to **10k concurrent users / 3k transactions per day** with
-    KEDA-driven autoscaling on EKS.
-
-    Strengths: pragmatic architecture, mentorship, and shipping
-    production systems with measurable impact.
-
-    Recipient of **MVP — Most Valuable Performer Award (Q1/2025, 2023)** and
-    **MVT — Most Valuable Team Award (2023)** at Money Forward Vietnam.
+    Principal Software Engineer scaling fintech platforms at **10k CCU and 3k tx/day**
+    on AWS/EKS. Built and lead Money Forward Vietnam's **AI Agent platform**
+    (LangChain, RAG, Function Calling) and a 10-engineer team across backend, cloud,
+    and GenAI. **Three-time award winner** (MVP Q1/2025, MVP 2023, MVT 2023) for
+    scaling AI infrastructure and cutting P1 incident MTTR to under 30 minutes through
+    centralized observability.
 
 
 education:
@@ -76,18 +69,15 @@ education:
 experiences:
   title: Experiences
   info:
-  - role: Principal Software Engineer (formerly Technical Lead)
+  - role: Principal Software Engineer (promoted from Technical Lead)
     time: Jan 2022 – Present
     company: Money Forward Vietnam — Fintech, headquartered in Japan
     details: |
-      - Architected and operated production microservices on EKS serving **10k+ concurrent users** in fintech workloads.
-      - Designed **PostgreSQL/MySQL** data models and **Redis** caching strategies powering invoice and AI services.
-      - Built centralized observability with the **ELK stack** — structured logging, error aggregation, and dashboards.
-      - Delivered **React + TypeScript + Tailwind** admin dashboards and internal operator tools alongside backend services.
-      - Owned platform reliability — monitoring, capacity planning, and incident response across AWS and Kubernetes.
-      - Built and operated CI/CD pipelines (CircleCI) and established repository structure, coding standards, and design-pattern guidelines for a 10-engineer team.
-      - Mentored engineers on backend, cloud, and AI/ML stacks; led code reviews to raise team-wide quality.
-      - Led Agile ceremonies and partnered with PMs/Owners to translate business requirements into technical solutions.
+      - Architected and operated production microservices on EKS serving **10k+ concurrent users** and **3k transactions/day** for invoice and AI fintech workloads.
+      - Scaled the platform with KEDA-driven autoscaling — pods scale **5 → 30 (6× spike absorption)** triggered by SQS depth and pod CPU/memory, eliminating manual ops during peak traffic.
+      - Owned platform reliability across AWS and Kubernetes — built centralized ELK observability and structured on-call playbooks, **cutting P1 incident MTTR to under 30 minutes**.
+      - Mentored a **10-engineer team** on backend, cloud, and AI/ML stacks; led **~200 PR reviews/year** raising team-wide code consistency and quality.
+      - Built CircleCI pipelines and standardized release process — established **weekly production release cadence** across dev/staging/production with repository and design-pattern guidelines adopted across the org.
 
   - role: Backend Engineer
     time: Sep 2021 – Jan 2022

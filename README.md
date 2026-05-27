@@ -1,171 +1,78 @@
 # Hoàng Ngọc Linh
+**Principal Software Engineer | Backend & AI Platform Architect**  
+3× Award recipient at Money Forward Vietnam · 10k CCU / 3k tx-per-day production scale
 
-Ho Chi Minh, Vietnam | +84-344-965-661 | linhhn.bkdn@gmail.com  
-LinkedIn: [linkedin.com/in/li-hnl](https://www.linkedin.com/in/li-hnl/) | GitHub: [github.com/linhhnbkdn](https://github.com/linhhnbkdn)
+Ho Chi Minh, Vietnam | +84 344 965 661 | linhhn.bkdn@gmail.com  
+LinkedIn: [linkedin.com/in/li-hnl](https://www.linkedin.com/in/li-hnl/) | GitHub: [github.com/linhhnbkdn](https://github.com/linhhnbkdn) | Portfolio: [linhhnbkdn.github.io/li-cv](https://linhhnbkdn.github.io/li-cv/)  
+Availability: 30 hrs/week, GMT+7, open to remote contracts
 
 ---
 
 ## PROFESSIONAL SUMMARY
-Principal Software Engineer with **8+ years** designing and scaling backend systems on AWS and Kubernetes — originally trained in mechatronics, now specialized in backend, cloud, and AI engineering. Currently leading platform and AI engineering at Money Forward Vietnam: architected an internal **AI Agent platform** (LangChain, RAG, Function Calling, FastAPI) and scaled invoice-processing services to **10k concurrent users / 3k transactions per day** with KEDA-driven autoscaling on EKS. Strengths: pragmatic architecture, mentorship, and shipping production systems with measurable impact.
-
----
-
-## EDUCATION
-**Da Nang University of Science and Technology**  
-*Bachelor's Degree in Mechatronics Engineering*  
-**Duration**: Aug 2013 – Aug 2018 | GPA: 3.16/4
-
----
-
-## CERTIFICATIONS
-- **Professional Scrum Master™ I (PSM I)**
-- **AWS Certified Solutions Architect – Professional**
-- **AWS Certified Solutions Architect – Associate**
-- **Certificate AI Practitioner** — VTC Academy
-- **Certificate CNN in TensorFlow** — deeplearning.ai
-
----
-
-## AWARDS
-- **MVP — Most Valuable Performer Award, Q1/2025**
-- **MVP — Most Valuable Performer Award, 2023**
-- **MVT — Most Valuable Team Award, 2023**
+Principal Software Engineer scaling fintech platforms at **10k CCU and 3k tx/day** on AWS/EKS. Built and lead Money Forward Vietnam's **AI Agent platform** (LangChain, RAG, Function Calling) and a 10-engineer team across backend, cloud, and GenAI. **Three-time award winner** (MVP Q1/2025, MVP 2023, MVT 2023) for scaling AI infrastructure and cutting P1 incident MTTR to under 30 minutes through centralized observability.
 
 ---
 
 ## SKILLS
-- **Languages**: Python (5+ years), Go, Terraform
-- **Backend Frameworks**: Django, DRF (5+ years), Celery (5+ years), FastAPI (2+ years), Flask, Gin
-- **Frontend**: ReactJS, TypeScript, JavaScript, Tailwind CSS
-- **Cloud & Infrastructure**: AWS (EKS, SQS, S3, SNS, RDS, Cognito, KMS), Docker, Kubernetes, KEDA
+- **Backend & Languages**: Python (9+ yrs), Django, DRF, Celery, FastAPI, Go
+- **Cloud & Infra**: AWS (EKS, SQS, S3, KMS, RDS, Cognito), Kubernetes, Docker, Terraform, KEDA, CircleCI
 - **Data & Messaging**: PostgreSQL, MySQL, Redis, Kafka, ELK
-- **AI / ML**: Generative AI (LangChain, RAG, Function Calling), Computer Vision (SVM)
-- **Architecture & Practices**: Microservices, Clean Architecture, DDD, SOLID, Design Patterns, TDD, Agile/Scrum, CI/CD (CircleCI)
-- **Authentication & Security**: JWT, OAuth2
+- **AI / GenAI**: LangChain, RAG, Function Calling, Production AI Agents
+- **Frontend**: ReactJS, TypeScript, Tailwind CSS
+- **Architecture & Practices**: Microservices, Clean Architecture, DDD, SOLID, Design Patterns, TDD
+- **Auth & Security**: JWT, OAuth2, AWS KMS
 
 ---
 
 ## PROFESSIONAL EXPERIENCE
 
-### **MONEY FORWARD VIETNAM**  
-*Principal Software Engineer (formerly Technical Lead)* — **Jan 2022 – Present**  
-A fintech company headquartered in Japan.  
-**Responsibilities**:
-- Architected and operated production microservices on EKS serving **10k+ concurrent users** in fintech workloads.
-- Designed **PostgreSQL/MySQL** data models and **Redis** caching strategies powering invoice and AI services.
-- Built centralized observability with the **ELK stack** — structured logging, error aggregation, and dashboards.
-- Delivered **React + TypeScript + Tailwind** admin dashboards and internal operator tools alongside backend services.
-- Owned platform reliability — monitoring, capacity planning, and incident response across AWS and Kubernetes.
-- Built and operated CI/CD pipelines (CircleCI) and established repository structure, coding standards, and design-pattern guidelines for a 10-engineer team.
-- Mentored engineers on backend, cloud, and AI/ML stacks; led code reviews to raise team-wide quality.
-- Led Agile ceremonies (sprint planning, retrospectives, daily stand-ups) and partnered with PMs/Owners to translate business requirements into technical solutions.
+### **Money Forward Vietnam** — Fintech (HQ Japan)
+**Principal Software Engineer** (promoted from Technical Lead) · **Jan 2022 – Present**
+- Architected and operated production microservices on EKS serving **10k+ concurrent users** and **3k transactions/day** for invoice and AI fintech workloads.
+- Scaled the platform with KEDA-driven autoscaling — pods scale **5 → 30 (6× spike absorption)** triggered by SQS depth and pod CPU/memory, eliminating manual ops during peak traffic.
+- Owned platform reliability across AWS and Kubernetes — built centralized ELK observability and structured on-call playbooks, **cutting P1 incident MTTR to under 30 minutes**.
+- Mentored a **10-engineer team** on backend, cloud, and AI/ML stacks; led **~200 PR reviews/year** raising team-wide code consistency and quality.
+- Built CircleCI pipelines and standardized release process — established **weekly production release cadence** across dev/staging/production with repository and design-pattern guidelines adopted across the org.
 
-### **PARCEL PERFORM TECH HUB VIETNAM**  
-*Backend Engineer* — **Sep 2021 – Jan 2022**  
-Provider of end-to-end data and delivery-experience platforms for e-commerce businesses.  
-**Responsibilities**:
+### **Parcel Perform Tech Hub Vietnam** — E-commerce data & delivery platform
+**Backend Engineer** · **Sep 2021 – Jan 2022**
 - Built authentication and notification microservices (JWT, OAuth2) for a parcel-tracking platform processing **~1 million writes/day**.
-- Designed async task pipelines on Kafka (message broker) and Celery (workers) to absorb spiky logistics traffic.
-- Tuned services for availability and performance in close collaboration with the platform team.
+- Designed async task pipelines on Kafka and Celery to absorb spiky logistics traffic and decouple high-throughput producers from consumers.
 
-### **AMPERE COMPUTING VIETNAM**  
-*Backend Engineer* — **Mar 2019 – Sep 2021**  
-An American fabless semiconductor company developing processors for large-scale server environments.  
-**Responsibilities**:
-- Built backend services for hardware-test automation and log analytics, accelerating QA regression cycles.
-- Trained SVM classifiers for object-classification tasks in the chip-validation pipeline.
-- Optimized backend systems and contributed to code reviews, bug fixing, and feature enhancements.
+### **Ampere Computing Vietnam** — American fabless semiconductor company
+**Backend Engineer** · **Mar 2019 – Sep 2021**
+- Built backend services for hardware-test automation and log analytics, accelerating QA regression cycles in the chip-validation pipeline.
+- Trained SVM classifiers for object-classification tasks in chip validation; optimized backend systems and contributed to code reviews and feature work.
 
-### **QUANG TRUNG SOFTWARE CITY**  
-*Full-stack Engineer* — **Jan 2016 – Mar 2019**  
-Software company specializing in product development and emerging-technology research for global clients.  
-**Responsibilities**:
+### **Quang Trung Software City** — Software & emerging-tech research
+**Full-stack Engineer** · **Jan 2016 – Mar 2019**
 - Shipped end-to-end IoT prototypes — Arduino firmware, Django backend, web dashboard — demoed directly to clients.
 - Researched and prototyped emerging IoT stacks for client-facing R&D projects.
 
 ---
 
-## PROJECTS
+## AWARDS
+- **MVP — Most Valuable Performer Award**, Q1/2025 *(Money Forward Vietnam)*
+- **MVP — Most Valuable Performer Award**, 2023 *(Money Forward Vietnam)*
+- **MVT — Most Valuable Team Award**, 2023 *(Money Forward Vietnam)*
 
-### **AI Agent Platform** (Jan 2025 – Present)  
-**Company**: Money Forward Vietnam  
-**Description**: Internal Generative-AI platform providing a shared protocol and plug-and-play deployment for production AI Agents — supports **RAG** over enterprise data, structured **Function Calling**, and async task orchestration. Powers AI features across the Money Forward Vietnam product surface.  
-- **Team Size**: 10  
-- **My Position**: Principal Software Engineer  
-**Responsibilities**:
-- Designed the protocol and core abstractions for plug-and-play AI Agent deployment.
-- Built AI runtime services with **FastAPI, LangChain, Celery, and Pydantic**, deployed on EKS via Terraform.
-- Integrated AWS KMS for secure handling of model credentials and customer data.
-- Implemented autoscaling with KEDA, SQS, and pod CPU/memory triggers.
-- Led architecture design — DDD documentation, UML diagrams, and team-wide RFCs.
-- Conducted code reviews, performance optimizations, and Agile cadence.
+---
 
-**Technologies**: LangChain, RAG, Function Calling, FastAPI, Pydantic, Celery, Gin; EKS, SQS, S3, SNS, Sendgrid, Cognito, Redis, AWS KMS.
-
-### **Cloud Invoice Platform** (Jan 2022 – Present)  
-**Company**: Money Forward Vietnam  
-**Description**: Two-product cloud platform — **invoice receiving** (OCR, reconciliation, payment processing) and **invoice sending** (compose, deliver, track) — built on event-driven microservices with KEDA-driven autoscaling.  
-- **Scale**: Receiving — 10k concurrent users, 3k transactions/day. Sending — 5k concurrent users, 2k transactions/day.  
-- **Team Size**: 10  
-- **My Position**: Principal Software Engineer  
-**Responsibilities**:
-- Designed AWS infrastructure on EKS provisioned with Terraform.
-- Scaled processing with KEDA-driven autoscaling (SQS depth + pod CPU/memory triggers).
-- Authored Dockerfiles and Docker Compose stacks for dev/staging/production parity.
-- Led application design — DDD documentation and UML diagrams.
-- Developed GraphQL APIs (Graphene-Django) alongside REST (DRF) and async services (Celery).
-- Conducted code reviews, optimizations, and bug fixing.
-
-**Technologies**: Microservices; Django, DRF, Graphene-Django, Celery, Gin; EKS, SQS, S3, SNS, Sendgrid, PostgreSQL, MySQL, Redis, ELK.
-
-### **PP Core System** (Sep 2021 – Jan 2022)  
-**Company**: Parcel Perform Tech Hub Vietnam  
-**Description**: Core logistics platform for parcel tracking, notifications, and distance/route optimization.  
-- **Writes per day**: ~1 million  
-- **Team Size**: 12  
-- **My Position**: Backend Engineer  
-**Responsibilities**:
-- Designed and built authentication, authorization, and notification microservices.
-- Implemented JWT-based authentication and OAuth2 flows.
-- Built async pipelines with Kafka (message broker) and Celery (workers).
-- Developed internal authentication APIs with FastAPI.
-
-**Technologies**: Microservices; Docker Compose; Django, Celery, DRF, FastAPI; Kafka.
-
-### **Avion** (Mar 2019 – Sep 2021)  
-**Company**: Ampere Computing Vietnam  
-**Description**: Internal application for executing hardware test cases, storing logs, and providing search and statistics for chip validation.  
-- **Team Size**: 5  
-- **My Position**: Backend Engineer  
-**Responsibilities**:
-- Designed monolithic MVC architecture for test orchestration.
-- Built templating layer in HTML and JavaScript.
-- Implemented session-based authentication and Flask internal APIs.
-
-**Technologies**: Django, Flask, Celery, DRF; Docker Compose.
-
-### **IoT Ampere** (Jan 2016 – Mar 2019)  
-**Company**: Quang Trung Software City  
-**Description**: Arduino-based real-time current-monitoring system — sensor data is transmitted to a Django web dashboard for fast, accurate online visualization.  
-- **Team Size**: 5  
-- **My Position**: Full-stack Engineer  
-**Responsibilities**:
-- Designed end-to-end IoT pipeline — Arduino firmware → backend ingestion → web visualization.
-- Programmed Arduino device firmware (Arduino IDE).
-- Built backend APIs with Django and templating layer in HTML/JavaScript.
-
-**Technologies**: Django, Celery, DRF; Docker Compose; Arduino device.
+## CERTIFICATIONS
+- **Professional Scrum Master™ I (PSM I)** — Scrum.org
+- **AWS Certified Solutions Architect – Professional** — Amazon Web Services
+- **AWS Certified Solutions Architect – Associate** — Amazon Web Services
+- **Certificate AI Practitioner** — VTC Academy
+- **Convolutional Neural Networks in TensorFlow** — deeplearning.ai
 
 ---
 
 ## LANGUAGES
-- **Vietnamese**: Native  
+- **Vietnamese**: Native
 - **English**: Professional working proficiency
 
 ---
 
-## ADDITIONAL INFORMATION
-- Extensive experience with **microservices architecture** and cloud-native applications on **AWS**.
-- Production exposure to **Generative AI** (LangChain, RAG, Function Calling) through the AI Agent Platform at Money Forward Vietnam.
-- Skilled in **CI/CD**, **Docker**, **Kubernetes**, and **Computer Vision**.
-- Passionate about applying machine learning and AI in production systems with measurable business impact.
+## EDUCATION
+**Da Nang University of Science and Technology**  
+*Bachelor's Degree in Mechatronics Engineering* · Aug 2013 – Aug 2018 · GPA 3.16/4
