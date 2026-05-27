@@ -9,17 +9,17 @@ sidebar:
 
   # Profile information
   name: Hoàng Ngọc Linh
-  tagline: Technical Lead / Principal Software Engineer
+  tagline: Principal Software Engineer
   avatar: # leave blank — no avatar configured
 
   # Sidebar links
   email: linhhn.bkdn@gmail.com
-  phone: 0344965661
+  phone: +84 344 965 661
   timezone: Asia/Ho_Chi_Minh
   citizenship: Vietnam
   website:
   linkedin: li-hnl
-  github:
+  github: linhhnbkdn
   twitter:
 
   languages:
@@ -29,7 +29,7 @@ sidebar:
       level: Native
 
     - idiom: English
-      level: B1 (Intermediate)
+      level: Professional working proficiency
 
   interests:
     title: Interests
@@ -47,21 +47,19 @@ sidebar:
 career-profile:
   title: Career Profile
   summary: |
-    Technical Lead / Principal Software Engineer with **8+ years** building
-    backend systems, microservices, and cloud-native platforms on AWS and
-    Kubernetes. Production experience scaling fintech workloads to 10k
-    concurrent users with Django, Celery, KEDA, and event-driven
-    architectures — paired with hands-on work in AI/ML (Generative AI,
-    LangChain, RAG, Computer Vision) and big-data pipelines (PySpark,
-    Airflow).
+    Principal Software Engineer with **8+ years** designing and scaling
+    backend systems on AWS and Kubernetes — from a mechatronics background
+    turned deep software engineering. Currently leading platform and AI
+    engineering at Money Forward Vietnam: architected an internal
+    **AI Agent platform** (LangChain, RAG, Function Calling, FastAPI) and
+    scaled invoice-processing services to **10k concurrent users / 3k
+    transactions per day** with KEDA-driven autoscaling on EKS.
 
-    Recipient of **MVP — Most Valuable Personal Award (Q1/2025, 2023)** and
-    **MVT — Most Valuable Team Award (2023)** at Money Forward Vietnam,
-    recognizing exceptional technical delivery and cross-functional
-    collaboration.
+    Strengths: pragmatic architecture, mentorship, and shipping production
+    systems with measurable impact.
 
-    Seeking engineering challenges where systems thinking, mentorship, and
-    pragmatic architecture compound.
+    Recipient of **MVP — Most Valuable Performer Award (Q1/2025, 2023)** and
+    **MVT — Most Valuable Team Award (2023)** at Money Forward Vietnam.
 
 
 education:
@@ -77,43 +75,40 @@ education:
 experiences:
   title: Experiences
   info:
-  - role: Technical Lead / Principal Software Engineer
+  - role: Principal Software Engineer (formerly Technical Lead)
     time: Jan 2022 – Present
     company: Money Forward Vietnam — Fintech, headquartered in Japan
     details: |
-      - Owned production reliability across AWS and Kubernetes — monitoring, capacity planning, and incident response.
-      - Architected and shipped new microservices end-to-end, including service code and AWS/Kubernetes infrastructure-as-code.
-      - Established repository structure, coding standards, and design-pattern guidelines for the team.
-      - Built and operated CI/CD pipelines spanning development, staging, and production.
-      - Partnered with Product Managers and Owners to translate business requirements into technical solutions.
-      - Mentored engineers on new technologies and led code reviews to raise team-wide quality.
+      - Architected and operated production microservices on EKS serving **10k+ concurrent users** in fintech workloads.
+      - Owned platform reliability — monitoring, capacity planning, and incident response across AWS and Kubernetes.
+      - Established repository structure, coding standards, and design-pattern guidelines for a 10-engineer team.
+      - Built and operated CI/CD pipelines (CircleCI) spanning development, staging, and production.
+      - Mentored engineers on backend, cloud, and AI/ML stacks; led code reviews to raise team-wide quality.
       - Led Agile ceremonies — sprint planning, retrospectives, and daily stand-ups.
+      - Partnered with Product Managers and Owners to translate business requirements into technical solutions.
 
   - role: Backend Engineer
     time: Sep 2021 – Jan 2022
     company: Parcel Perform Tech Hub Vietnam — E-commerce data & delivery platform
     details: |
-      - Designed and shipped authentication and notification microservices on JWT and OAuth2.
-      - Built async task pipelines on Kafka (message broker) and Celery (workers) for high-throughput workloads.
+      - Built authentication and notification microservices (JWT, OAuth2) for a parcel-tracking platform processing **~1 million writes/day**.
+      - Designed async task pipelines on Kafka (message broker) and Celery (workers) to absorb spiky logistics traffic.
       - Tuned services for availability and performance in close collaboration with the platform team.
-      - Drove daily stand-ups and sprint planning in an Agile environment.
 
   - role: Backend Engineer
     time: Mar 2019 – Sep 2021
     company: Ampere Computing Vietnam — American fabless semiconductor company
     details: |
-      - Developed backend services for hardware test automation and log analytics.
-      - Built and trained SVM classifiers for object-classification workflows.
-      - Optimized backend systems in collaboration with cross-functional teams.
-      - Contributed to code reviews, bug fixing, and feature enhancements.
+      - Built backend services for hardware-test automation and log analytics, accelerating QA regression cycles.
+      - Trained SVM classifiers for object-classification tasks in the chip-validation pipeline.
+      - Optimized backend systems and contributed to code reviews, bug fixing, and feature enhancements.
 
   - role: Full-stack Engineer
     time: Jan 2016 – Mar 2019
     company: Quang Trung Software City — Software & emerging-tech research for global clients
     details: |
-      - Researched IoT tech stacks for client-facing product prototypes.
-      - Designed and implemented web applications together with embedded-device firmware.
-      - Demoed products directly to customers and incorporated iteration feedback.
+      - Shipped end-to-end IoT prototypes — Arduino firmware, Django backend, web dashboard — demoed directly to clients.
+      - Researched and prototyped emerging IoT stacks for client-facing R&D projects.
 
 
 certifications:
@@ -182,33 +177,20 @@ certifications:
     credentialname:
     details:
 
-  - name: Certificate of English Language Proficiency — B1
-    start:
-    end:
-    organization:
-    credentialid:
-    credentialurl:
-    credentialname:
-    details:
-
 
 projects:
   title: Projects
   intro: >
-    Selected production systems built or led across fintech, logistics,
-    semiconductor tooling, and IoT.
+    Selected production systems built or led across fintech AI, invoice
+    automation, logistics, semiconductor tooling, and IoT.
   assignments:
   - title: AI Agent Platform (Money Forward)
     link:
-    tagline: "Plug-and-play AI Agent platform with shared protocol. Stack: FastAPI, Celery, Gin, EKS, Terraform, KEDA, AWS KMS. Team of 10 — Technical Lead."
+    tagline: "Internal Generative-AI platform — shared protocol and plug-and-play deployment for production AI Agents. RAG over enterprise data, structured Function Calling, async orchestration. Stack: LangChain, FastAPI, Celery, Pydantic, EKS, Terraform, KEDA, AWS KMS. Team of 10 — Principal Software Engineer."
 
-  - title: Received Cloud Invoice (Money Forward)
+  - title: Cloud Invoice Platform (Money Forward)
     link:
-    tagline: "Invoice receiving and OCR processing — 10k concurrent users, 3k transactions/day on EKS with KEDA-driven autoscaling. Django + Celery + DRF."
-
-  - title: Web Sending Invoice (Money Forward)
-    link:
-    tagline: "Invoice sending and reconciliation — 5k concurrent users, 2k transactions/day. GraphQL via Graphene-Django + Django REST Framework."
+    tagline: "Two-product cloud platform — invoice receiving (OCR, reconciliation) and invoice sending (compose, deliver, track). Scale: 10k CCU / 3k tx/day (receiving), 5k CCU / 2k tx/day (sending). Django, DRF, Graphene-Django GraphQL, Celery on EKS with KEDA autoscaling."
 
   - title: PP Core System (Parcel Perform)
     link:
@@ -216,7 +198,7 @@ projects:
 
   - title: Avion (Ampere Computing)
     link:
-    tagline: "Internal hardware-test runner with log storage, search, and statistics. Monolithic MVC on Django + Flask + Docker Compose."
+    tagline: "Internal hardware-test runner with log storage, search, and statistics for chip validation. Monolithic MVC on Django + Flask + Docker Compose."
 
   - title: IoT Ampere (Quang Trung Software City)
     link:
@@ -227,25 +209,25 @@ skills:
   title: Skills &amp; Proficiency
 
   toolset:
-  - name: Python, Django, DRF
+  - name: Python, Django, DRF, Celery
     level: 95%
 
-  - name: Celery, Kafka, async pipelines
+  - name: AWS (EKS, SQS, S3, KMS) &amp; Terraform
     level: 90%
 
-  - name: AWS (EKS, SQS, S3, Cognito, KMS) &amp; Terraform
+  - name: Kubernetes, Docker, CI/CD (CircleCI)
     level: 90%
 
-  - name: Kubernetes, Docker, CI/CD
-    level: 90%
-
-  - name: FastAPI &amp; Flask
+  - name: FastAPI &amp; Async Microservices
     level: 85%
 
-  - name: Generative AI (LangChain, RAG, Function Calling)
+  - name: Kafka &amp; Event-Driven Systems
+    level: 85%
+
+  - name: Generative AI — LangChain, RAG, Function Calling
     level: 80%
 
-  - name: Golang &amp; Gin
+  - name: Go &amp; Gin
     level: 70%
 
   - name: PySpark &amp; Apache Airflow
