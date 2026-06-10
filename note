@@ -1,0 +1,12 @@
+# Fix PDF bị ATS/Lever không đọc được
+
+Dùng Ghostscript để normalize PDF (thay thế pdf-lib, Chromium-rendered PDF):
+
+```bash
+gs -dBATCH -dNOPAUSE -sDEVICE=pdfwrite \
+   -dCompatibilityLevel=1.4 \
+   -sOutputFile='output-fixed.pdf' \
+   'input.pdf'
+```
+
+**Khi nào dùng:** Upload CV lên Lever, Greenhouse, Workday, hay bất kỳ ATS nào báo "can't read PDF" — đặc biệt với PDF xuất từ TopCV, pdf-lib, hoặc Chromium headless.
