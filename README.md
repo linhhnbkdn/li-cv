@@ -17,7 +17,8 @@ Principal Software Engineer scaling fintech platforms at **10k CCU and 3k tx/day
 - **Backend & Languages**: Python (9+ yrs), Django, DRF, Celery, FastAPI, Go
 - **Cloud & Infra**: AWS (EKS, SQS, S3, KMS, RDS, Cognito), Kubernetes, Docker, Terraform, KEDA, CircleCI
 - **Data & Messaging**: PostgreSQL, MySQL, Redis, Kafka, ELK
-- **AI / GenAI**: LangChain, RAG, Function Calling, Production AI Agents
+- **AI / GenAI**: LangChain, RAG, Function Calling, Production AI Agents, Claude API
+- **AI Tooling**: Claude, Cursor, GitHub Copilot — workflow automation (Dev / QA / PO) — 2× team productivity
 - **Frontend**: ReactJS, TypeScript, Tailwind CSS
 - **Architecture & Practices**: Microservices, Clean Architecture, DDD, SOLID, Design Patterns, TDD
 - **Auth & Security**: JWT, OAuth2, AWS KMS
@@ -33,6 +34,7 @@ Principal Software Engineer scaling fintech platforms at **10k CCU and 3k tx/day
 - Owned platform reliability across AWS and Kubernetes — built centralized ELK observability and structured on-call playbooks, **cutting P1 incident MTTR to under 30 minutes**.
 - Mentored a **10-engineer team** on backend, cloud, and AI/ML stacks; led **~200 PR reviews/year** raising team-wide code consistency and quality.
 - Built CircleCI pipelines and standardized release process — established **weekly production release cadence** across dev/staging/production with repository and design-pattern guidelines adopted across the org.
+- Designed and deployed **Claude-powered workflows** for Dev, QA, and PO roles — automating repetitive task cycles (PR reviews, test-case generation, spec drafting) and achieving **2× team productivity** gains across the engineering org.
 
 ### **Parcel Perform Tech Hub Vietnam** — E-commerce data & delivery platform
 **Backend Engineer** · **Sep 2021 – Jan 2022**

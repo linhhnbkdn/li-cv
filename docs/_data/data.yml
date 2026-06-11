@@ -78,6 +78,7 @@ experiences:
       - Owned platform reliability across AWS and Kubernetes — built centralized ELK observability and structured on-call playbooks, **cutting P1 incident MTTR to under 30 minutes**.
       - Mentored a **10-engineer team** on backend, cloud, and AI/ML stacks; led **~200 PR reviews/year** raising team-wide code consistency and quality.
       - Built CircleCI pipelines and standardized release process — established **weekly production release cadence** across dev/staging/production with repository and design-pattern guidelines adopted across the org.
+      - Designed and deployed **Claude-powered workflows** for Dev, QA, and PO roles — automating repetitive task cycles (PR reviews, test-case generation, spec drafting) and achieving **2× team productivity** gains across the engineering org.
 
   - role: Backend Engineer
     time: Sep 2021 – Jan 2022
@@ -160,7 +161,7 @@ projects:
   assignments:
   - title: AI Agent Platform (Money Forward)
     link:
-    tagline: "Internal Generative-AI platform — shared protocol and plug-and-play deployment for production AI Agents. RAG over enterprise data, structured Function Calling, async orchestration. Stack: LangChain, FastAPI, Celery, Pydantic, EKS, Terraform, KEDA, AWS KMS. Team of 10 — Principal Software Engineer."
+    tagline: "Internal Generative-AI platform — shared protocol and plug-and-play deployment for production AI Agents. RAG over enterprise data, structured Function Calling, async orchestration. Stack: LangChain, Claude API, FastAPI, Celery, Pydantic, EKS, Terraform, KEDA, AWS KMS. Team of 10 — Principal Software Engineer."
 
   - title: Cloud Invoice Platform (Money Forward)
     link:
@@ -201,7 +202,10 @@ skills:
   - name: PostgreSQL, MySQL, Redis &amp; ELK
     level: 85%
 
-  - name: Generative AI — LangChain, RAG, Function Calling
+  - name: Generative AI — LangChain, RAG, Function Calling, Claude API
+    level: 80%
+
+  - name: Claude, Cursor, GitHub Copilot — Workflow Automation
     level: 80%
 
   - name: ReactJS, TypeScript, Tailwind CSS
