@@ -82,6 +82,48 @@ Bao quanh tất cả: **Exception Handling Ch.12**, **HITL Ch.13**, **Evaluation
 
 ---
 
+### Standard Agent Flow trong MCP (Ch.10)
+
+MCP là **lớp transport chuẩn hóa** giữa LLM và tools — không phải flow, mà là protocol cho phép bước ACT và OBSERVE hoạt động.
+
+```
+GOAL / MISSION
+  ↓
+1. SCAN      → MCP: list_tools(), list_resources()   ← agent biết có gì
+  ↓
+2. PLAN      → LLM tạo plan, chọn tool cho từng bước (Ch.6 + Ch.17 ReAct/CoT)
+  ↓
+3. ACT       → MCP: call_tool(name, args)             ← vòng lặp chính
+             → MCP: read_resource(uri)
+             → MCP: get_prompt(name)
+  ↓
+4. OBSERVE   → Tool trả result qua MCP response, agent update context
+  ↓
+5. REFLECT   → Goal đạt chưa? (Ch.11)
+             → Chưa → quay lại PLAN
+             → Rồi  → stop, trả output
+```
+
+**3 MCP primitives trong flow:**
+
+| Primitive | Vai trò |
+|---|---|
+| `Tools` | Agent *làm* việc gì đó (write file, call API) |
+| `Resources` | Agent *đọc* data (file, DB, URL) |
+| `Prompts` | Agent *dùng* template có sẵn |
+
+**Mapping với sách:**
+
+| Step | Chapter |
+|---|---|
+| Get Mission | Ch.11 Goal Setting |
+| Scan Scene | Ch.10 MCP list_tools/resources |
+| Think It Through | Ch.6 Planning + Ch.17 ReAct/CoT |
+| Take Action | Ch.5 Tool Use qua MCP call_tool |
+| Learn Better | Ch.4 Reflection + Ch.9 Adaptation |
+
+---
+
 ### Nguyên tắc cốt lõi
 
 > Agent làm gì là do mình thiết kế — LLM nào, tools gì, loop ntn, prompt ra sao, dừng khi nào, guardrails gì.
