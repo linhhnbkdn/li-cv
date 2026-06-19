@@ -9,7 +9,7 @@ Availability: 30 hrs/week, GMT+7, open to remote contracts
 ---
 
 ## PROFESSIONAL SUMMARY
-Principal Software Engineer scaling fintech platforms at **10k CCU and 3k tx/day** on AWS/EKS. Built and lead Money Forward Vietnam's **AI Agent platform** (LangChain, RAG, Function Calling) and a 10-engineer team across backend, cloud, and GenAI. **Three-time award winner** (MVP Q1/2025, MVP 2023, MVT 2023) for scaling AI infrastructure and cutting P1 incident MTTR to under 30 minutes through centralized observability.
+Principal Software Engineer scaling fintech platforms at **10k CCU and 3k tx/day** on AWS/EKS. Built and lead Money Forward Vietnam's **AI Agent platform** (LangChain, RAG, Function Calling) and a 16-engineer team across backend, cloud, and GenAI. **Three-time award winner** (MVP Q1/2025, MVP 2023, MVT 2023) for scaling AI infrastructure and cutting P1 incident MTTR to under 30 minutes through centralized observability.
 
 ---
 
@@ -32,7 +32,7 @@ Principal Software Engineer scaling fintech platforms at **10k CCU and 3k tx/day
 - Architected and operated production microservices on EKS serving **10k+ concurrent users** and **3k transactions/day** for invoice and AI fintech workloads.
 - Scaled the platform with KEDA-driven autoscaling — pods scale **5 → 30 (6× spike absorption)** triggered by SQS depth and pod CPU/memory, eliminating manual ops during peak traffic.
 - Owned platform reliability across AWS and Kubernetes — built centralized ELK observability and structured on-call playbooks, **cutting P1 incident MTTR to under 30 minutes**.
-- Mentored a **10-engineer team** on backend, cloud, and AI/ML stacks; led **~200 PR reviews/year** raising team-wide code consistency and quality.
+- Mentored a **16-engineer team** on backend, cloud, and AI/ML stacks; led **~200 PR reviews/year** raising team-wide code consistency and quality.
 - Built CircleCI pipelines and standardized release process — established **weekly production release cadence** across dev/staging/production with repository and design-pattern guidelines adopted across the org.
 - Designed and deployed **Claude-powered workflows** for Dev, QA, and PO roles — automating repetitive task cycles (PR reviews, test-case generation, spec drafting) and achieving **2× team productivity** gains across the engineering org.
 
