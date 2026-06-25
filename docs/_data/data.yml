@@ -184,10 +184,10 @@ skills:
   title: Skills &amp; Proficiency
 
   toolset:
-  - name: Python, Django, DRF, Celery
+  - name: Python, Django, DRF, Celery, graphene-django, Go, Gin
     level: 95%
 
-  - name: AWS (EKS, SQS, S3, KMS) &amp; Terraform
+  - name: AWS (EKS, SQS, SNS, S3, KMS, Cognito) &amp; Terraform
     level: 90%
 
   - name: Kubernetes, Docker, CI/CD (CircleCI)
@@ -199,7 +199,7 @@ skills:
   - name: Kafka &amp; Event-Driven Systems
     level: 85%
 
-  - name: PostgreSQL, MySQL, Redis &amp; ELK
+  - name: PostgreSQL, MySQL, Redis, ELK &amp; SendGrid
     level: 85%
 
   - name: Generative AI — LangChain, RAG, Function Calling, Claude API

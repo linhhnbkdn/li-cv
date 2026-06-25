@@ -14,9 +14,9 @@ Principal Software Engineer scaling fintech platforms at **10k CCU and 3k tx/day
 ---
 
 ## SKILLS
-- **Backend & Languages**: Python (9+ yrs), Django, DRF, Celery, FastAPI, Go
-- **Cloud & Infra**: AWS (EKS, SQS, S3, KMS, RDS, Cognito), Kubernetes, Docker, Terraform, KEDA, CircleCI
-- **Data & Messaging**: PostgreSQL, MySQL, Redis, Kafka, ELK
+- **Backend & Languages**: Python (9+ yrs), Django, DRF, Celery, graphene-django, FastAPI, Go, Gin
+- **Cloud & Infra**: AWS (EKS, SQS, SNS, S3, KMS, RDS, Cognito), Kubernetes, Docker, Terraform, KEDA, CircleCI
+- **Data & Messaging**: PostgreSQL, MySQL, Redis, Kafka, ELK, SendGrid
 - **AI / GenAI**: LangChain, RAG, Function Calling, Production AI Agents, Claude API
 - **AI Tooling**: Claude, Cursor, GitHub Copilot — workflow automation (Dev / QA / PO) — 2× team productivity
 - **Frontend**: ReactJS, TypeScript, Tailwind CSS
