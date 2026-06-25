@@ -78,7 +78,7 @@ experiences:
       - Owned platform reliability across AWS and Kubernetes — built centralized ELK observability and structured on-call playbooks, **cutting P1 incident MTTR to under 30 minutes**.
       - Mentored a **16-engineer team** on backend, cloud, and AI/ML stacks; led **~200 PR reviews/year** raising team-wide code consistency and quality.
       - Built CircleCI pipelines and standardized release process — established **weekly production release cadence** across dev/staging/production with repository and design-pattern guidelines adopted across the org.
-      - Designed and deployed **Claude-powered workflows** for Dev, QA, and PO roles — automating repetitive task cycles (PR reviews, test-case generation, spec drafting) and achieving **2× team productivity** gains across the engineering org.
+      - Built **Agentic development workflows** for TL, Dev, and QA roles: TL agent drafts architecture specs and task breakdown; Dev agent implements from spec then performs line-by-line code review with inline comments; QA agent generates test cases and validates acceptance criteria — achieving **2× team productivity** across the engineering org.
 
   - role: Backend Engineer
     time: Sep 2021 – Jan 2022
